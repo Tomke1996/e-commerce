@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <a href="#"><img src="./images/logo.jpg" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html"class="navLink active">Home</a></li>
+                <li><a href="shop.html" class="navLink">Store</a></li>
+                <li><a href="about.html" class="navLink">About</a></li>
+                <li><a href="contact.html" class="navLink">Contact</a></li>
+                <li id="lg-bag"><a href="#" class="navLink"><i class="fas fa-bag-shopping"></i></a></li>
+                <a id="close" href="#"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a id="bag" href="#"><i class="fas fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+        <!-- Cart Container -->
+        <div class="cart-container">
+            <i class="fas fa-times close-button"></i>
+            <h2 class="cart-title">Cart:</h2>
+            <div class="top">
+                <h3>Name</h3>
+                <h3>Color</h3>
+                <h3>Quantity</h3>
+                <h3>Price</h3>
+            </div>
+            <div class="cart-items"></div>
+            <div class="footer-cart">
+                <div class="total"></div>
+                <div class="footer-button">
+                    <button class="order-btn">Order</button>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- Hero -->
+    <section id="shop-hero" class="about-header">
+        <h2>Who We Are?</h2>
+        <p>let us introduce ourselves</p>
+    </section>
+    <!-- About -->
+    <section id="about-head" class="section-padd">
+        <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg" alt="">
+        <div>
+            <h2>We Are...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet accusamus harum error itaque labore repudiandae placeat molestias culpa dolore omnis optio aut aliquam temporibus blanditiis et voluptatum doloremque, numquam id necessitatibus similique quam. Iste nam enim cumque suscipit corrupti.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, sed.</p>
+            <br><br>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magnam culpa totam sit dicta praesentium.</marquee>
+        </div>
+    </section>
+    <!-- About App -->
+    <section id="about-app">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="video/mobile-app.mp4"></video>
+        </div>
+    </section>
+    <!-- Features -->
+    <section id="features" class="section-padd">
+        <div class="feature-wrapper">
+            <div class="feature-box">
+                <h4>Online Shop</h4>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/1043/1043450.png" alt="shop">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo placeat quae doloribus pariatur! Quia cumque cum delectus doloremque ea dolor.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <h4>Quality</h4>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/1534/1534225.png" alt="Quality">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aliquam repudiandae tempore eaque laborum cumque velit. Repudiandae esse incidunt doloremque, amet quos.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <h4>Affordable Cost</h4>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/1520/1520562.png" alt="Price">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quidem facilis officiis rem omnis eveniet, nostrum laboriosam at tenetur, dolor reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Newsletter -->
+        <section id="newsletter" class="section-padd section-marg">
+            <div class="news-text">
+                <h4>Sign Up for Newsletters</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your E-mail address">
+                <button>Sign Up</button>
+            </div>
+        </section>
+    <!-- Footer -->
+    <footer class="section-padd">
+        <div class="col">
+            <img class="logo" src="./images/logo.jpg" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 00 Unknown Street 00 Belgrade, Serbia</p>
+            <p><strong>Phone:</strong> +00-0000-00000</p>
+            <p><strong>Hours:</strong> 09-16, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Inforamtion</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Card</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Store</p>
+            <div class="row">
+                <img src="https://assets.stickpng.com/images/5a902dbf7f96951c82922875.png" alt="">
+                <img src="http://gymboree-uk.com/wp-content/uploads/2019/03/app-store.png" alt="">
+            </div>
+            <p>Secured Paymants Gateways</p>
+            <img src="https://www.freepnglogos.com/uploads/visa-and-mastercard-logo-26.png" alt="">
+        </div>
+    </footer>
+    
+    <!-- JS -->
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
